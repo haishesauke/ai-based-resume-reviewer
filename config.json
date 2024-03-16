@@ -7,7 +7,7 @@
       "request": "launch",
       "program": "${file}",
       "env": {
-        "API_KEY": "AIzaSyAuoRViqVlrynAfAOLu725z4MuO45apDos"
+        "API_KEY": "enter your api key here"
       }
     }
   ]
