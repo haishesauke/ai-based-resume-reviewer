@@ -1,0 +1,30 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Analysis Result</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style_result.css') }}"
+</head>
+<body>
+    <h1>Resume Analysis Result</h1>
+    <p>{{ reply }}</p>
+    <a href="/">Upload Another Resume</a>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatted Response</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/style_result.css') }}">
+    
+</head>
+<body>
+    <div class="formatted-response">
+        <h1>feedback on yoor resume</h1>
+        {{ reply | safe }}
+    </div>
+</body>
+</html>
