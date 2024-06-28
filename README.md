@@ -1,6 +1,10 @@
 
 # Ai based Resume Analyzer App
 
+![image](https://github.com/haishesauke/ai-based-resume-reviewer/assets/110107845/354ff44b-e58a-4eab-95df-125afc094760)
+
+
+
 The Resume Analyzer App is a Flask-based web application that allows users to upload their resumes and receive a detailed analysis of the content using an AI model. The app aims to assist job seekers in improving their resumes by providing insights into areas such as keywords, skills, and formatting.
 
 Note: please make sure to insert your google gemini api key in the config.json file otherwise the app won't work.
